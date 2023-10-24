@@ -1,5 +1,9 @@
 # Bike-Sharing-Trends-Analytics
 
+****Abstract:****
+
+This project involves analyzing bike sharing data to build model for predicting bike rental demand. The data is first loaded and explored using visualizations and statistics to understand features like seasonality, weather, holidays etc. Data cleaning steps like removing outliers are done before splitting data into train and test sets. Categorical variables are encoded and numeric variables are standardized. Multiple models like linear regression, decision trees and grid search for hyperparameter tuning of decision trees are trained and evaluated using r-squared, MSE. The best model was a tuned decision tree which gave good performance on test data. Overall, the project follows a standard machine learning workflow of data exploration, preprocessing, model training and evaluation to solve the bike rental demand forecasting problem.
+
 ****Problem Statement:****
 
 With environmental issues and health becoming trending topics, usage of bicycles as a mode of transportation has gained traction. To encourage bike usage, cities across the world have successfully rolled out bike sharing programs. Under such schemes, riders can rent bicycles using manual/automated kiosks spread across the city for defined periods. In most cases, riders can pick up bikes from one location and return them to any other designated place. The bike sharing platforms from across the world are hotspots of all sorts of data, ranging from travel time, start and end location, demographics of riders, and so on. This data along with alternate sources of information such as weather, traffic, and so on makes it an attractive proposition for different research areas. The aim of this project is to predict the count of bike rental demand. To this end, bike sharing dataset with weather information is used.

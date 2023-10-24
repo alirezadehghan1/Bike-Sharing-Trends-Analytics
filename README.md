@@ -6,6 +6,7 @@ With environmental issues and health becoming trending topics, usage of bicycles
 
 
 ***Bike riding dataset description:****
+
 The dataset contains more than 17k samples with 17 attributes
   * record index
   * date

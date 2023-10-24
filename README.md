@@ -6,7 +6,7 @@ With environmental issues and health becoming trending topics, usage of bicycles
 
 
 ***Bike riding dataset description:****
-* The dataset contains more than 17k samples with 17 attributes
+The dataset contains more than 17k samples with 17 attributes
   * record index
   * date
   * season : season (1:Spring, 2:Summer, 3:Fall, 4:Winter)
@@ -17,10 +17,15 @@ With environmental issues and health becoming trending topics, usage of bicycles
   * weekday : day of the week (0 to 6)
   * workingday : if day is neither weekend nor holiday is 1 otherwise is 0
   * weather_condition:
+
 		- 1: Clear, Few clouds, Partly cloudy
+
 		- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+
 		- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+
 		- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+
   * temp : Normalized temperature in Celsius. The values are divided to 41 (max)
   * atemp: Normalized feeling temperature in Celsius. The values are divided to 50 (max)
   * humidity: Normalized humidity. The values are divided to 100 (max)
